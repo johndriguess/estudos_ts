@@ -8,8 +8,8 @@ function Formulario(){
         console.log(password)
     }
 
-const [name, setName] = useState("");
-const [password, setPassword] = useState("");
+const [name, setName] = useState<string>("");
+const [password, setPassword] = useState<string>("");
 
     return(
         <>
